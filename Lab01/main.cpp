@@ -10,8 +10,8 @@ const char ESTRELLA_KLEENE = '*';
 const int CANTIDAD_LENGUAJES =  4;
 
 void imprimePantalla(vector<string> cadena){
-    for(string str : cadena){
-        cout << str << endl;
+    for(string elemento : cadena){
+        cout << elemento << endl;
     }
 }
 
